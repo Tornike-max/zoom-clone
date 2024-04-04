@@ -23,12 +23,12 @@ const MeetingModal = ({
   image,
   buttonIcon,
 }: {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   isOpen: boolean;
   onClose: () => void;
   title: string;
-  className: string;
-  buttonText: string;
+  className?: string;
+  buttonText?: string;
   handleClick: () => void;
   image?: string;
   buttonIcon?: string;
